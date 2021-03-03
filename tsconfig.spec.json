@@ -1,0 +1,7 @@
+{
+  "include": ["src", "cypress/integration/**/*", "node_modules/cypress/types/*", "node_modules/@congstar/**/*"],
+  "compilerOptions": {
+    "types": ["jest", "node", "@types/jest"]
+  },
+  "moduleResolution": "node"
+}
